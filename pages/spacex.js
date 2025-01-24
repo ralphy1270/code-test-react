@@ -23,7 +23,7 @@ export default function SpaceXLaunches() {
         setHasMore(false);
       } else {
         setLaunches((prevLaunches) => [...prevLaunches, ...data]);
-        setFilteredLaunches((prevLaunches) => [...prevLaunches, ...data]); // Update filtered list
+        setFilteredLaunches((prevLaunches) => [...prevLaunches, ...data]);
       }
       setLoading(false);
     } catch (error) {
